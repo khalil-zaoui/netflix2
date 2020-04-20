@@ -1,0 +1,86 @@
+    @media (max-width:992px){
+        #input-div{
+            text-align: center!important;
+        }
+        #button-div{
+            text-align: center!important;
+            padding-top: 20px;
+        }
+        .button-email{
+            font-size: small!important;
+            width: 120px!important;
+            height: 48px!important;
+        }
+        #netflix-tv{
+            padding-bottom:250px;
+        }
+        #netflix-download{
+            padding-bottom:100px;
+        }
+    }
+
+
+    @media (min-width:720px){
+        .btn-icon{
+            padding-top: 8px;
+        }
+
+    }
+    
+    @media (max-width:720px){
+        .catalogue{
+            height: 785px;
+        }
+        #slogan1 h1{
+            font-size: 3.125rem;
+            padding: 50px 50px 0px 50px;
+        }
+    }
+    
+    
+    @media (max-width:540px){
+        .catalogue-banner img{
+            width: 90%;
+        }
+        .button-top{
+        transform: translate(-80px, 0px);
+        }
+        #slogan1 h1{
+            font-size: 1.75rem;
+            padding: 50px 50px 0px 50px;
+        }
+        #text-tv h1{
+            font-size: 1.625rem!important;
+        }
+        #text-tv h2{
+            font-size: 1.125rem!important;
+        }
+        #text-download h1{
+            font-size: 1.625rem!important;
+        }
+        #text-download h2{
+            font-size: 1.125rem!important;
+        }
+        #netflix-download-col{
+            transform: translate(-190px, 0px);
+        }
+        #text-mac h1{
+            font-size: 1.625rem!important;
+        }
+        #text-mac p{
+            font-size: 1.125rem!important;
+        }
+        .questions h1{
+            font-size: 1.625rem!important;
+        }
+        .questions h3{
+            font-size: 1.2rem!important;
+            padding: 0 20px 20px 0;
+        }
+        .questions button{
+            font-size: 1rem!important;
+            height: 59px!important;
+            width: 90vw!important;
+            margin: 3px auto!important;
+        }
+    }

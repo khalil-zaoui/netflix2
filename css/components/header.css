@@ -1,0 +1,153 @@
+.catalogue-banner {
+    position: relative;
+    height: 90px;
+    z-index: 2;
+
+}
+
+.catalogue-banner img {
+    width: 167px;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
+.catalogue {
+    width: 100%;
+    height: 714px;
+    position: relative;
+    background: url(../../images/background-netflix.jpg) no-repeat center center/cover;;
+}
+
+.catalogue::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.9) 100%);
+}
+.catalogue-banner {
+    position: relative;
+    height: 90px;
+    z-index: 3;
+
+}
+
+.button {
+    display: inline-block;
+    background: #e50914;
+    color: #fff;
+    padding: 0.4rem 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0;
+    outline: none;
+}
+
+.button-top {
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+#catalogue-text {
+    padding-top: 100px;
+    width: 640px;
+    color: white;
+    height: 140.8px;
+    position: absolute;
+    top: 50%;
+    margin: auto;
+    left: 50%;
+    text-align: center;
+    z-index: 2;
+}
+
+#catalogue-text h1 {
+    
+    font-weight: bold;
+    font-size: 4rem;
+    color: #fff;
+    -webkit-font-smoothing: antialiased
+}
+
+#slogan1 h1{
+    font-weight: 700;
+    font-size: 68px;
+    padding-top: 100px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.patch {
+    padding-top: 30px;
+    position: relative;
+    margin-top: 00px;
+    z-index: 2;
+}
+.patch input {
+
+    top: 0;
+    height: 70px;
+    width: 100%;
+    margin: -5px;
+    font-size: 16px;
+}
+.button-email{
+    font-weight: 500;
+    width: 214px;
+    height: 71px;
+    background: #e50914;
+    font-size: 1.875rem;
+    color: white;
+    border: 2px solid #e50914;
+    transform: translate(0%, 8%);
+
+}
+
+@media (max-width:992px){
+    .patch {
+        padding-top: 30px;
+        position: relative;
+        margin-top: 00px;
+        z-index: 2;
+    }
+    .patch input {
+        top: 0;
+        height: 50px;
+        width: 50%;
+        margin: -5px;
+        font-size: 16px;
+    }
+    .button-email{
+        font-weight: 500;
+        width: 214px;
+        height: 7*51px;
+        background: #e50914;
+        font-size: 1.875rem;
+        color: white;
+        border: 2px solid #e50914;
+        transform: translate(0%, 8%);
+    
+    }
+}
+
+
+
+#slogan3 p{
+    font-size: 68px;
+    padding-top: 5px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,153 @@
+
+.saut{
+    height: 10px;
+    background-color: #222222;
+}
+
+#text-tv {
+    padding-top: 110px;
+}
+@media (min-width:992px){
+    #text-tv{
+        padding-left:150px
+    }
+}
+
+
+#text-tv h1{
+    font-size: 3rem!important;
+    font-weight: bold!important;
+}
+
+#text-tv h2{
+    padding-top: 12px;
+    font-size: 1.6rem!important;
+}
+
+.overlay-ST{
+    transform: translate(107px, 348px);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.75em;
+    width: 332px;
+    height: 103px;
+    padding: 0.5em 0.75em;
+    position: absolute;
+    margin-top: -130px;
+    background-color: black;
+    z-index: 2;
+    margin-left: 90px;
+    
+}
+
+.overlay-image {
+    width: 20%;
+}
+
+.front{
+    margin-left: 75px;
+     margin-top: -65px;
+      margin-bottom: 25px;
+      font-weight: bold;
+      font-size: 1rem
+}
+
+.front-subtitle {
+    color: #0071eb;
+    font-size: 14px;
+    margin-left: 75px;
+    margin-top: -29px;
+}
+
+.iphone-stranger{
+    width: 78%;
+    transform: translate(92px, -142px);
+}
+
+#iphonestranger{
+    padding-top: 50px;
+    transform: translate(92px, -44px);
+}
+
+.tv-video-container{
+    transform: translate(30px, 110px);
+}
+
+
+.tv-video-container-video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-video-container-image {
+    position: absolute;
+}
+
+#netflix-tv{
+    padding-bottom:150px
+}
+
+#netflix-download{
+    padding-top: 60px;
+}
+
+#text-download {
+    padding-top: 60px;
+}
+
+#text-download h1{
+    font-size: 3rem!important;
+    font-weight: bold!important;
+}
+
+
+
+#text-download h2{
+    padding-top: 12px;
+    font-size: 1.6rem!important;
+}
+
+#netflix-devices{
+    padding-bottom:150px
+}
+
+.mac-video-container-video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+#mac-video-container-image {
+    position: absolute;
+    top: -30px;
+    width: 520px;
+    height: 400px;
+}
+
+#video-mac {
+    width: auto;
+    height: 188px;
+}
+
+#text-mac {
+    padding-top: 150px;
+}
+@media (min-width:992px){
+    #text-mac{
+        padding-left:150px
+    }
+}
+
+
+#text-mac h1{
+    font-size: 3rem!important;
+    font-weight: bold!important;
+}
+
+#text-mac h2{
+    padding-top: 12px;
+    font-size: 1.6rem!important;
+}

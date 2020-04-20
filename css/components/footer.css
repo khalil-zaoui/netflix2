@@ -1,0 +1,27 @@
+footer {
+    height: auto;
+    margin: 5% auto;
+    width: 70vw;
+    font-size: 0.8rem;
+  }
+  
+
+  footer h3 {
+    color: #aaa;
+  }
+
+  .footer-link {
+    color: #aaa;
+    margin: 5px 0;
+    width: 25%;
+  }
+
+  select {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background: #111;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+  }

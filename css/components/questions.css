@@ -1,0 +1,115 @@
+.questions {
+    border-top: 6px rgb(77, 77, 77) solid;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .questions h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .faq-btn {
+    height: 70px;
+    width: 60vw;
+    text-align: left;
+    border: none;
+    background: #222222;
+    color: #fff;
+    margin: 5px auto;
+    font-size: 1.5rem;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  
+  .ans {
+    height: auto;
+    background: #333;
+    margin-top: 0px;
+    text-align: justify;
+    display: none;
+    transform: translate3d(0, -100%, 0);
+    animation: fade 1s ease-out forwards;
+  }
+  
+  .show {
+    display: block;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  i {
+    float: right;
+  }
+  
+  
+  .questions h1{
+    color: white;
+  }
+  
+  
+  .contact {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .btm {
+    position: relative;
+    margin: 50px 0;
+  }
+  
+  
+  .try {
+    position: relative;
+    top: 60%;
+    width: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .try input {
+    padding: 0.5rem 0.2rem;
+    top: 0;
+    height: 50px;
+    width: 60%;
+    margin: 0;
+    font-size: 1.2rem;
+  
+  }
+  
+  .try a {
+    font-size: 1.5rem;
+    padding: 0.7rem 1.8rem;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .try p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  
+  .btm {
+    position: relative;
+    margin: 50px 0;
+  }
+  
+
+.email-form-title{
+    font-size:23px; 
+    color: white;
+    padding top:130px;
+}
